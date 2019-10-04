@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LinksSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="workingWithLinks.CountAndGetLinks">
+        <methods>
+          <include name="open"/>
+          <include name="links"/>
+        </methods>
+      </class> <!-- workingWithLinks.CountAndGetLinks -->
+      <class name="workingWithLinks.CountClickGetUrlNavigate">
+        <methods>
+          <include name="links"/>
+        </methods>
+      </class> <!-- workingWithLinks.CountClickGetUrlNavigate -->
+      <class name="workingWithLinks.CountVisibleAndHiddenLinks">
+        <methods>
+          <include name="links"/>
+        </methods>
+      </class> <!-- workingWithLinks.CountVisibleAndHiddenLinks -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [LinksSuite] -->
